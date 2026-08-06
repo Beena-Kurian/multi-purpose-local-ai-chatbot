@@ -39,7 +39,7 @@ Install:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/multi-purpose-local-ai-chatbot.git
+git clone https://github.com/Beena-Kurian/multi-purpose-local-ai-chatbot.git
 cd multi-purpose-local-ai-chatbot
 ```
 
@@ -50,13 +50,6 @@ cd multi-purpose-local-ai-chatbot
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-```
-
-**Linux / macOS**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
 ```
 
 ### 3. Install Python packages
@@ -91,20 +84,18 @@ ollama list
 python -m shiny run --reload --launch-browser app.py
 ```
 
-Open:
+Open in browser:
 
 ```text
 http://127.0.0.1:8000
 ```
-
-> **Note:** Do **not** run the app using `python app.py`.
 
 ---
 
 ## Using the Chatbot
 
 * Select an AI model from the sidebar.
-* Customize the system prompt (e.g., French Teacher, Python Tutor).
+* Customize the system prompt
 * Adjust response creativity.
 * Start chatting.
 
